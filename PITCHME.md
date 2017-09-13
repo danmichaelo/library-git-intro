@@ -1,60 +1,97 @@
-# Intro
 
-- We've all been there… [Insert PhDComics here]
-- Enter version control.
-<!-- Even if you haven't used Git before, you may have used some kind of version control in Word, Google Docs or similar -->
-<!-- In this session, we will talk a bit about Git, a bit about GitHub and a bit about GitHub Pages -->
+### Git
 
-Git:
+- A solution to a common problem…
 
-- A brilliant version control system
-- Have been around since 2005, widely used, won't go away anytime soon.
-- Can track any kind of file, but works best with plain text formats
+---?image=phd101212s.png&size=contain
+
+---
+
+### Git
+
+- A brilliant version control system (VCS)
+- Can track changes to any kind of file, but best support for plain text formats
   (which also happen to be more archive friendly)
+- Powerful history: all versions are kept forever, every change linked to person.
+- Have been around since 2005, widely used, won't go away anytime soon.
 - Free & open source
-- Learning curve is a bit hard. Lots of terminology and commands to be learned,
-  but lots of help out there [VISE HUMORISTISK CHEATSHEET]
-- Runs locally on your computer (no internet access required)
-- Perhaps most powerful when used to coordinate simultaneous work on a project among a distributed group of people.
 
-GitHub:
+---
 
-- A popular website for *sharing* Git repositories and make it easier to work together
+### Git
+
+- It's distributed:
+	- Runs locally on your computer (no internet access required)…
+	- … but can sync with any number of other computers, or a website such as GitHub
+		- allows you to coordinate simultaneous work on a project among a distributed group of people
+		  without ever being afraid of accidentally overwriting each others changes.
+
+---
+
+### Git
+
+- Learning curve a little bit steep and quite long
+  (lots of *terminology* and commands to be learned) 😟
+	- But you can make practical use of it with only a little knowledge 😊
+	- Also, it's quite hard to break something (you can always go back in history) 😊
+
+---
+
+### GitHub
+
+- A popular website for *sharing* Git repositories and making it easier to work together
 - Adds some optional project management tools such as issue tracking
 - Allows you do many of the things you can do with Git on the command line, but not everything
 - Free for open projects, paid if you want private repositories.
+
+---
+
+### GitHub
+
 - Majority of the content on GitHub is open source software,
-  but increasingly used for other projects such as open data, constantly updated text books,
-  blogs, etc.
-  - https://github.com/openmusictheory/openmusictheory.github.io
-  - https://github.com/progit/progit2
-  - https://github.com/realfagstermer/realfagstermer
+  but increasingly used for other projects such as
+  open data ([Examples](TODO)),
+  constantly updated text books
+  ([Ex. 1](https://github.com/openmusictheory/openmusictheory.github.io),
+  [Ex. 2](https://github.com/progit/progit2))
+ 	- (You also find my library's [subject heading vocabulary](https://github.com/realfagstermer/realfagstermer)
+    there ...)
+   	- (... and all the course material for this course there. If you notice a typo, we can fix it together!)
 
-And of course the lesson material for this lesson is on GitHub.
-If you notice a typo, please let me know and I can show you how you can fix it.
+---
 
-GitHub Pages:
+### GitHub Pages
 
-- An easy way to publish content online.
+- An easy way to publish a web site.
 - A service for easily publishing webpages from a git repository.
 - An example of a service that integrates very well with the Git workflow.
-  There are more (such as Authorea).
+  There are more (such as Authorea for collaborative academic paper writing).
 
+---
 
-The two most important concepts:
+### The two most important concepts
 
 - **Repository**: a collection of version-controlled files, a "project"
   - Can think of it as a a special kind of folder where all *versions* of the files are stored forever
 - **Commit**
    - A commit is a version or snapshot of the repository.
    - Unlike some other systems like Google Docs, new versions are never created automatically. You must actively commit to make a new version.
-   - Can think of it as saving if you find that useful.
 
+---
 
-If time...
+### Enough talking...
 
-- Most popular among software developers, but can be used with any kind of file. Works best with plain text files though. EXAMPLES
-- Distributed, history doesn't have to be linear.
-[Figures showing tree and graph]
+```shell
+$ git config --global user.name "First Last"
+$ git config --global user.email "first.last@isp.com"
+```
 
+### GitHub
 
+- [Push, pull, fork - GitHub for academics](http://www.digitalpedagogylab.com/hybridped/push-pull-fork-github-for-academics/)
+- http://git-scm.com/book
+- http://swcarpentry.github.io/git-novice/
+- http://www.linux.com/news/featured-blogs/185-jennifer-cloer/821541-10-years-of-git-an-interview-with-git-creator-linus-torvalds
+- https://gun.io/blog/how-to-github-fork-branch-and-pull-request/
+- http://christoph.ruegg.name/blog/git-howto-revert-a-commit-already-pushed-to-a-remote-reposit.html
+- http://git-man-page-generator.lokaltog.net/
