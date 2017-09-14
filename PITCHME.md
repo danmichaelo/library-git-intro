@@ -41,22 +41,23 @@
 
 - A popular website for *sharing* Git repositories and making it easier to work together
 - Adds some optional project management tools such as issue tracking
-- Allows you do many of the things you can do with Git on the command line, but not everything
+- Also allows you do many of the things you can do with Git on the command line, but not everything
 - Free for open projects, paid if you want private repositories.
 
 ---
 
 ### GitHub
 
-- Majority of the content on GitHub is open source software,
+- Majority of the content on GitHub is open source software
+  (including [library software](https://github.com/hbunke/BibsOnGitHub)),
   but increasingly used for other projects such as
-  open data ([Examples](TODO)),
-  constantly updated text books
-  ([Ex. 1](https://github.com/openmusictheory/openmusictheory.github.io),
-  [Ex. 2](https://github.com/progit/progit2))
- 	- (You also find my library's [subject heading vocabulary](https://github.com/realfagstermer/realfagstermer)
-    there ...)
-   	- (... and all the course material for this course there. If you notice a typo, we can fix it together!)
+  [open](http://www.nature.com/news/democratic-databases-science-on-github-1.20719),
+  [science](https://opensource.com/life/14/4/interview-arfon-smith-github),
+  [constantly updated](https://github.com/openmusictheory/openmusictheory.github.io),
+  [text books](https://github.com/progit/progit2), and you'll even find things
+  like [my library's subject heading vocabulary](https://github.com/realfagstermer/realfagstermer)
+  and of course all the [library carpentry course material](https://github.com/data-lessons/library-git)
+  (If you notice a typo, we can fix it together!)
 
 ---
 
