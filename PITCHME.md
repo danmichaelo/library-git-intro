@@ -1,3 +1,12 @@
+### Git*
+
+Short intro to Git*
+
+- Git
+- GitHub
+- GitHub Pages
+
+---
 
 ### Git
 
@@ -63,10 +72,14 @@
 
 ### GitHub Pages
 
-- An easy way to publish a web site.
-- A service for easily publishing webpages from a git repository.
+- An easy way to publish a web site from a git repository.
 - An example of a service that integrates very well with the Git workflow.
-  There are more (such as Authorea for collaborative academic paper writing).
+  There are more (such as [Authorea](https://www.authorea.com/)
+  for collaborative academic paper writing).
+
+---
+
+### The two most important concepts
 
 ---
 
