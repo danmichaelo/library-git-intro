@@ -8,7 +8,7 @@ Short intro to Git*
 
 ---
 
-### Git
+### Version control
 
 - A solution to a common problem…
 
@@ -60,8 +60,8 @@ Short intro to Git*
 - Majority of the content on GitHub is open source software
   (including [library software](https://github.com/hbunke/BibsOnGitHub)),
   but increasingly used for other projects such as
-  [open](http://www.nature.com/news/democratic-databases-science-on-github-1.20719),
-  [science](https://opensource.com/life/14/4/interview-arfon-smith-github),
+  [open and](http://www.nature.com/news/democratic-databases-science-on-github-1.20719),
+  [reproducable science](https://opensource.com/life/14/4/interview-arfon-smith-github),
   [constantly updated](https://github.com/openmusictheory/openmusictheory.github.io),
   [text books](https://github.com/progit/progit2), and you'll even find things
   like [my library's subject heading vocabulary](https://github.com/realfagstermer/realfagstermer)
@@ -81,17 +81,20 @@ Short intro to Git*
 
 ### The two most important concepts
 
----
-
-### The two most important concepts
-
 - **Repository**: a collection of version-controlled files, a "project"
   - Can think of it as a a special kind of folder where all *versions* of the files are stored forever
 - **Commit**
    - A commit is a version or snapshot of the repository.
-   - Unlike some other systems like Google Docs, new versions are never created automatically. You must actively commit to make a new version.
+   - Unlike some other systems like Google Docs, new versions are not created automatically.
+     You must actively commit to make a new version.
 
 ---
+
+### A few links for later
+
+- [Push, pull, fork - GitHub for academics](http://www.digitalpedagogylab.com/hybridped/push-pull-fork-github-for-academics/)
+- [GitHub Guides](https://guides.github.com/)
+- [Pro Git e-book](http://git-scm.com/book)
 
 ### Enough talking...
 
@@ -99,9 +102,3 @@ Short intro to Git*
 $ git config --global user.name "First Last"
 $ git config --global user.email "first.last@isp.com"
 ```
-
-#### A few links for later
-
-- [Push, pull, fork - GitHub for academics](http://www.digitalpedagogylab.com/hybridped/push-pull-fork-github-for-academics/)
-- [A great Git book](http://git-scm.com/book)
-- [Software Carpentry Git Novice Tutorial](http://swcarpentry.github.io/git-novice/)
